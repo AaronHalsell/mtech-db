@@ -4,12 +4,22 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "18.13.0"
+    "node": "16.17.0"
   },
   "scripts": {
+    "start": "cd backend && npm start",
     "build": "cd backend && npm i && cd ../client && npm i && npm run build",
-    "start": "node backend/app.js"  },
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chan-thomas/render-pern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chan-thomas/render-pern/issues"
+  },
+  "homepage": "https://github.com/chan-thomas/render-pern#readme"
 }
